@@ -3,7 +3,7 @@ name: Application build
 on:
   push:
     paths:
-      - "C:/Data/POC/gh-actions-demo/.github/workflows/build-application.yml"
+      - ".github/workflows/build-application.yml"
       - "demo/**"
 
 jobs:
