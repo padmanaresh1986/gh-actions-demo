@@ -2,9 +2,29 @@ name: Playground
 
 on: 
     workflow_dispatch: 
+
+        # - name: Display Java version info
+        # run: |
+        #   echo "=== Java Version ==="
+        #   java -version
+        #   echo "\n=== Java Location ==="
+        #   which java
+        #   echo "\n=== Java Home ==="
+        #   echo $JAVA_HOME
+
     
 jobs:
-    test-actions:
+    inspect-java:
         runs-on: ubuntu-latest
         steps:
-            - run: echo Hello Team
+            - name: Run a multi-line script
+            run: |
+                echo Add other actions to build,
+                echo test, and deploy your project.
+
+
+
+
+
+            
+                
