@@ -30,3 +30,9 @@ jobs:
           which java
           echo "\n=== Java Home ==="
           echo $JAVA_HOME
+
+  inspect-python:
+    runs-on: macos-latest
+    steps:
+        - name: python version
+          run: python --version 
