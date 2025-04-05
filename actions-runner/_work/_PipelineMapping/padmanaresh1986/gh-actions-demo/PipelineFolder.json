@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "padmanaresh1986/gh-actions-demo",
+  "pipelineDirectory": "gh-actions-demo",
+  "workspaceDirectory": "gh-actions-demo\\gh-actions-demo",
+  "repositories": {
+    "padmanaresh1986/gh-actions-demo": {
+      "repositoryPath": "gh-actions-demo\\gh-actions-demo",
+      "lastRunOn": "04/05/2025 09:05:11 +05:30"
+    }
+  },
+  "lastRunOn": "04/05/2025 09:05:37 +05:30"
+}

@@ -1,0 +1,3 @@
+
+docker build -t gh-actions-runner .
+docker run -e REPO_URL=https://github.com/padmanaresh1986/gh-actions-demo  -e RUNNER_TOKEN=AO7A2N57ZWNXPGFXUH24QRTH6C2OO --name self-hosted-runner  gh-actions-runner
