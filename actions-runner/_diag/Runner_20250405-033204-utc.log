@@ -1,0 +1,336 @@
+[2025-04-05 03:32:04Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-05 03:32:04Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:04Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:04Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\POC\gh-actions-demo\actions-runner\.credentials'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'Runner': 'C:\Data\POC\gh-actions-demo\actions-runner\.runner'
+[2025-04-05 03:32:05Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-04-05 03:32:05Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2025-04-05 03:32:05Z INFO Listener] Version: 2.323.0
+[2025-04-05 03:32:05Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-05 03:32:05Z INFO Listener] Culture: en-US
+[2025-04-05 03:32:05Z INFO Listener] UI Culture: en-US
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO Listener] Validating directory permissions for: 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO CommandLineParser] Parse
+[2025-04-05 03:32:05Z INFO CommandLineParser] Parsing 1 args
+[2025-04-05 03:32:05Z INFO CommandLineParser] parsing argument
+[2025-04-05 03:32:05Z INFO CommandLineParser] HasArgs: False
+[2025-04-05 03:32:05Z INFO CommandLineParser] Adding Command: run
+[2025-04-05 03:32:05Z INFO Listener] Arguments parsed
+[2025-04-05 03:32:05Z INFO Runner] ExecuteCommand
+[2025-04-05 03:32:05Z INFO ConfigurationStore] currentAssemblyLocation: C:\Data\POC\gh-actions-demo\actions-runner\bin\Runner.Listener.dll
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] binPath: C:\Data\POC\gh-actions-demo\actions-runner\bin
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] RootFolder: C:\Data\POC\gh-actions-demo\actions-runner
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'Runner': 'C:\Data\POC\gh-actions-demo\actions-runner\.runner'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] ConfigFilePath: C:\Data\POC\gh-actions-demo\actions-runner\.runner
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Data\POC\gh-actions-demo\actions-runner\.runner_migrated'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Data\POC\gh-actions-demo\actions-runner\.runner_migrated
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'Credentials': 'C:\Data\POC\gh-actions-demo\actions-runner\.credentials'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] CredFilePath: C:\Data\POC\gh-actions-demo\actions-runner\.credentials
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Data\POC\gh-actions-demo\actions-runner\.credentials_migrated'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] MigratedCredFilePath: C:\Data\POC\gh-actions-demo\actions-runner\.credentials_migrated
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'Service': 'C:\Data\POC\gh-actions-demo\actions-runner\.service'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Data\POC\gh-actions-demo\actions-runner\.service
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'help': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'version': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'check': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Command 'configure': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Command 'remove': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-04-05 03:32:05Z INFO ConfigurationManager] LoadSettings
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured()
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-05 03:32:05Z INFO ConfigurationManager] Is configured: True
+[2025-04-05 03:32:05Z INFO ConfigurationStore] Read setting file: 321 chars
+[2025-04-05 03:32:05Z INFO ConfigurationManager] Settings Loaded
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-05 03:32:05Z INFO CommandSettings] Command 'run': 'True'
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured()
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-05 03:32:05Z INFO ConfigurationManager] Is configured: True
+[2025-04-05 03:32:05Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-04-05 03:32:05Z INFO Runner] Set runner startup type - Manual
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-05 03:32:05Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-05 03:32:05Z INFO Runner] RunAsync
+[2025-04-05 03:32:05Z INFO ConfigurationManager] LoadSettings
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured()
+[2025-04-05 03:32:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-05 03:32:05Z INFO ConfigurationManager] Is configured: True
+[2025-04-05 03:32:05Z INFO ConfigurationManager] Settings Loaded
+[2025-04-05 03:32:05Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "DESKTOP-D3FMQP8",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus24.actions.githubusercontent.com/XkvLCCXnjnWwesLx468jYRF1YXRddlB38WaaJ525dyU56rFu4C/",
+  "GitHubUrl": "https://github.com/padmanaresh1986/gh-actions-demo",
+  "WorkFolder": "_work"
+}
+[2025-04-05 03:32:05Z INFO MessageListener] Loading Credentials
+[2025-04-05 03:32:05Z INFO ConfigurationStore] HasCredentials()
+[2025-04-05 03:32:05Z INFO ConfigurationStore] stored True
+[2025-04-05 03:32:05Z INFO CredentialManager] GetCredentialProvider
+[2025-04-05 03:32:05Z INFO CredentialManager] Creating type OAuth
+[2025-04-05 03:32:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:32:05Z INFO HostContext] Well known directory 'Root': 'C:\Data\POC\gh-actions-demo\actions-runner'
+[2025-04-05 03:32:05Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams'
+[2025-04-05 03:32:05Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:32:05Z INFO MessageListener] Attempt to create session.
+[2025-04-05 03:32:05Z INFO MessageListener] Connecting to the Runner Server...
+[2025-04-05 03:32:05Z INFO RunnerServer] EstablishVssConnection
+[2025-04-05 03:32:05Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-04-05 03:32:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-05 03:32:05Z INFO RunnerServer] EstablishVssConnection
+[2025-04-05 03:32:05Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-05 03:32:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-05 03:32:05Z INFO RunnerServer] EstablishVssConnection
+[2025-04-05 03:32:05Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-05 03:32:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-05 03:32:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-05 03:32:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-05 03:32:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-05 03:32:06Z INFO MessageListener] VssConnection created
+[2025-04-05 03:32:06Z INFO Terminal] WRITE LINE: 
+[2025-04-05 03:32:06Z INFO Terminal] WRITE LINE: 
+[2025-04-05 03:32:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:32:06Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:32:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-05 03:32:08Z INFO MessageListener] Session created.
+[2025-04-05 03:32:08Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-04-05 03:32:08Z INFO Terminal] WRITE LINE: 2025-04-05 03:32:08Z: Listening for Jobs
+[2025-04-05 03:32:08Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-04-05 03:32:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:32:09Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-05 03:35:07Z INFO MessageListener] Message '5060034992651119155' received from session 'e7926e33-bf86-492c-84d3-83d837f908e3'.
+[2025-04-05 03:35:07Z INFO ConfigurationStore] HasCredentials()
+[2025-04-05 03:35:07Z INFO ConfigurationStore] stored True
+[2025-04-05 03:35:07Z INFO CredentialManager] GetCredentialProvider
+[2025-04-05 03:35:07Z INFO CredentialManager] Creating type OAuth
+[2025-04-05 03:35:07Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-05 03:35:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:07Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-05 03:35:09Z INFO JobDispatcher] Job request 0 for plan 1e9fb8d2-39dd-4636-bccb-994df8c88046 job c51b64de-b576-5683-b868-81f6793ed1d7 received.
+[2025-04-05 03:35:09Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-05 03:35:09Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-05 03:35:09Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:09Z: Running job: inspect-java
+[2025-04-05 03:35:09Z INFO JobDispatcher] Start renew job request 0 for job c51b64de-b576-5683-b868-81f6793ed1d7.
+[2025-04-05 03:35:10Z INFO JobDispatcher] Successfully renew job c51b64de-b576-5683-b868-81f6793ed1d7, job is valid till 4/5/2025 3:45:09 AM
+[2025-04-05 03:35:10Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   File name: 'C:\Data\POC\gh-actions-demo\actions-runner\bin\Runner.Worker.exe'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2368 2380'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-05 03:35:10Z INFO ProcessInvokerWrapper] Process started with process id 18788, waiting for process exit.
+[2025-04-05 03:35:10Z INFO JobDispatcher] Send job request message to worker for job c51b64de-b576-5683-b868-81f6793ed1d7.
+[2025-04-05 03:35:10Z INFO ProcessChannel] Sending message of length 18068, with hash 'fefd5fc280f482e2176c3c86587fbbdbf7e4a62309fd20f6c9cd69738c0dd4c7'
+[2025-04-05 03:35:11Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-05 03:35:11Z INFO JobNotification] Entering StartMonitor
+[2025-04-05 03:35:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:23Z INFO ProcessInvokerWrapper] Finished process 18788 with exit code 102, and elapsed time 00:00:13.3017727.
+[2025-04-05 03:35:23Z INFO JobDispatcher] Worker finished for job c51b64de-b576-5683-b868-81f6793ed1d7. Code: 102
+[2025-04-05 03:35:23Z INFO JobDispatcher] finish job request for job c51b64de-b576-5683-b868-81f6793ed1d7 with result: Failed
+[2025-04-05 03:35:23Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:23Z: Job inspect-java completed with result: Failed
+[2025-04-05 03:35:23Z INFO JobDispatcher] Stop renew job request for job c51b64de-b576-5683-b868-81f6793ed1d7.
+[2025-04-05 03:35:23Z INFO JobDispatcher] job renew has been cancelled, stop renew job c51b64de-b576-5683-b868-81f6793ed1d7.
+[2025-04-05 03:35:23Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-05 03:35:23Z INFO MessageListener] Message '11804109026434811' received from session 'e7926e33-bf86-492c-84d3-83d837f908e3'.
+[2025-04-05 03:35:23Z INFO ConfigurationStore] HasCredentials()
+[2025-04-05 03:35:23Z INFO JobNotification] Entering EndMonitor
+[2025-04-05 03:35:23Z INFO ConfigurationStore] stored True
+[2025-04-05 03:35:23Z INFO CredentialManager] GetCredentialProvider
+[2025-04-05 03:35:23Z INFO CredentialManager] Creating type OAuth
+[2025-04-05 03:35:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-05 03:35:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:23Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-05 03:35:23Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-05 03:35:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:23Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-05 03:35:26Z INFO JobDispatcher] Job request 0 for plan 1e9fb8d2-39dd-4636-bccb-994df8c88046 job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a received.
+[2025-04-05 03:35:26Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-05 03:35:26Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-05 03:35:26Z INFO JobDispatcher] Job request c51b64de-b576-5683-b868-81f6793ed1d7 processed succeed.
+[2025-04-05 03:35:26Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:26Z: Running job: inspect-python
+[2025-04-05 03:35:26Z INFO JobDispatcher] Start renew job request 0 for job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a.
+[2025-04-05 03:35:26Z INFO JobDispatcher] Successfully renew job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a, job is valid till 4/5/2025 3:45:25 AM
+[2025-04-05 03:35:26Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   File name: 'C:\Data\POC\gh-actions-demo\actions-runner\bin\Runner.Worker.exe'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1208 1184'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-05 03:35:26Z INFO ProcessInvokerWrapper] Process started with process id 2976, waiting for process exit.
+[2025-04-05 03:35:26Z INFO JobDispatcher] Send job request message to worker for job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a.
+[2025-04-05 03:35:26Z INFO ProcessChannel] Sending message of length 16811, with hash 'd506f6d4a6cc20064e963fe085206d6b57fdf9b800c9dc7effa9e9b81f1a7660'
+[2025-04-05 03:35:26Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-05 03:35:26Z INFO JobNotification] Entering StartMonitor
+[2025-04-05 03:35:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:34Z INFO ProcessInvokerWrapper] Finished process 2976 with exit code 102, and elapsed time 00:00:07.3798129.
+[2025-04-05 03:35:34Z INFO JobDispatcher] Worker finished for job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a. Code: 102
+[2025-04-05 03:35:34Z INFO JobDispatcher] finish job request for job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a with result: Failed
+[2025-04-05 03:35:34Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:34Z: Job inspect-python completed with result: Failed
+[2025-04-05 03:35:34Z INFO JobDispatcher] Stop renew job request for job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a.
+[2025-04-05 03:35:34Z INFO JobDispatcher] job renew has been cancelled, stop renew job 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a.
+[2025-04-05 03:35:34Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-05 03:35:34Z INFO JobNotification] Entering EndMonitor
+[2025-04-05 03:35:34Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-05 03:35:34Z INFO MessageListener] Message '8474705728242588618' received from session 'e7926e33-bf86-492c-84d3-83d837f908e3'.
+[2025-04-05 03:35:34Z INFO ConfigurationStore] HasCredentials()
+[2025-04-05 03:35:34Z INFO ConfigurationStore] stored True
+[2025-04-05 03:35:34Z INFO CredentialManager] GetCredentialProvider
+[2025-04-05 03:35:34Z INFO CredentialManager] Creating type OAuth
+[2025-04-05 03:35:34Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-05 03:35:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Data\POC\gh-actions-demo\actions-runner\.credentials_rsaparams
+[2025-04-05 03:35:35Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-05 03:35:36Z INFO JobDispatcher] Job request 0 for plan 1e9fb8d2-39dd-4636-bccb-994df8c88046 job 62ff0a60-7599-579f-a089-283d98deef6a received.
+[2025-04-05 03:35:36Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-05 03:35:36Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-05 03:35:36Z INFO JobDispatcher] Job request 2a6ced03-20a8-5efb-8ce7-53b69da1bb9a processed succeed.
+[2025-04-05 03:35:36Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:36Z: Running job: inspect-checkout-action
+[2025-04-05 03:35:36Z INFO JobDispatcher] Start renew job request 0 for job 62ff0a60-7599-579f-a089-283d98deef6a.
+[2025-04-05 03:35:36Z INFO JobDispatcher] Successfully renew job 62ff0a60-7599-579f-a089-283d98deef6a, job is valid till 4/5/2025 3:45:35 AM
+[2025-04-05 03:35:36Z INFO HostContext] Well known directory 'Bin': 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   File name: 'C:\Data\POC\gh-actions-demo\actions-runner\bin\Runner.Worker.exe'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2488 2500'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Data\POC\gh-actions-demo\actions-runner\bin'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-05 03:35:36Z INFO ProcessInvokerWrapper] Process started with process id 5800, waiting for process exit.
+[2025-04-05 03:35:36Z INFO JobDispatcher] Send job request message to worker for job 62ff0a60-7599-579f-a089-283d98deef6a.
+[2025-04-05 03:35:36Z INFO ProcessChannel] Sending message of length 17550, with hash '492050bdb142fb42f24674ea912c7461c0e33487cd9dfc8bd44857e38acbf4ff'
+[2025-04-05 03:35:37Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-05 03:35:37Z INFO JobNotification] Entering StartMonitor
+[2025-04-05 03:35:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-05 03:35:46Z INFO ProcessInvokerWrapper] Finished process 5800 with exit code 102, and elapsed time 00:00:09.5572586.
+[2025-04-05 03:35:46Z INFO JobDispatcher] Worker finished for job 62ff0a60-7599-579f-a089-283d98deef6a. Code: 102
+[2025-04-05 03:35:46Z INFO JobDispatcher] finish job request for job 62ff0a60-7599-579f-a089-283d98deef6a with result: Failed
+[2025-04-05 03:35:46Z INFO Terminal] WRITE LINE: 2025-04-05 03:35:46Z: Job inspect-checkout-action completed with result: Failed
+[2025-04-05 03:35:46Z INFO JobDispatcher] Stop renew job request for job 62ff0a60-7599-579f-a089-283d98deef6a.
+[2025-04-05 03:35:46Z INFO JobDispatcher] job renew has been cancelled, stop renew job 62ff0a60-7599-579f-a089-283d98deef6a.
+[2025-04-05 03:35:46Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-05 03:35:46Z INFO JobNotification] Entering EndMonitor
+[2025-04-05 03:35:46Z INFO MessageListener] Received job status event. JobState: Online
+[2025-04-05 03:43:45Z INFO Terminal] WRITE LINE: Exiting...
+[2025-04-05 03:43:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-05 03:43:45Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-05 03:43:45Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-04-05 03:43:45Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=e7926e33-bf86-492c-84d3-83d837f908e3&status=Online&runnerVersion=2.323.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2025-04-05 03:43:45Z ERR  BrokerServer] Catch exception during request
+[2025-04-05 03:43:45Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2025-04-05 03:43:45Z ERR  BrokerServer] #####################################################
+[2025-04-05 03:43:45Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2025-04-05 03:43:45Z ERR  BrokerServer] #####################################################
+[2025-04-05 03:43:45Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2025-04-05 03:43:45Z ERR  BrokerServer] #####################################################
+[2025-04-05 03:43:45Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2025-04-05 03:43:45Z WARN BrokerServer] Back off 12.661 seconds before next retry. 4 attempt left.
+[2025-04-05 03:43:45Z INFO MessageListener] Get next message has been cancelled.
+[2025-04-05 03:43:45Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-04-05 03:43:45Z INFO JobDispatcher] Ensure WorkerDispatcher for job 62ff0a60-7599-579f-a089-283d98deef6a run to finish, cancel any running job.
+[2025-04-05 03:43:45Z INFO JobDispatcher] Job request 62ff0a60-7599-579f-a089-283d98deef6a processed succeed.
+[2025-04-05 03:43:45Z INFO Runner] Deleting Runner Session...
+[2025-04-05 03:43:45Z INFO Listener] Runner execution been cancelled.
