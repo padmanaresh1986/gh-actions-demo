@@ -1,20 +1,32 @@
 import os
-import openai
-import requests
+from github import Github
+from openai import OpenAI
 
-GITHUB_API = "https://api.github.com"
-REPO = os.getenv("GITHUB_REPOSITORY")
-PR_NUMBER = os.getenv("PR_NUMBER")
+# Get environment variables
+REPO_NAME = os.getenv("GITHUB_REPOSITORY")
+PR_NUMBER = int(os.getenv("PR_NUMBER"))
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+AIT_API_KEY = os.getenv("AIT_API_KEY")
+
+# Initialize GitHub client
+gh = Github(GITHUB_TOKEN)
+repo = gh.get_repo(REPO_NAME)
 
 def get_diff():
-    url = f"{GITHUB_API}/repos/{REPO}/pulls/{PR_NUMBER}/files"
-    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
-    response = requests.get(url, headers=headers)
-    files = response.json()
-    diff = ""
-    for file in files:
-        diff += f"\nFile: {file['filename']}\n{file.get('patch', '')}\n"
-    return diff
+    try:
+        pr = repo.get_pull(PR_NUMBER)
+        files = pr.get_files()
+        print(f" Diff files {files}")
+        diff = ""
+        for file in files:
+            filename = file.filename
+            patch = file.patch if hasattr(file, "patch") else ""
+            diff += f"\nFile: {filename}\n{patch}\n"
+
+        return diff
+    except Exception as e:
+        print("❌ Error fetching PR diff:", e)
+        return ""
 
 def get_review_comments(diff):
     prompt = f"""
@@ -29,15 +41,12 @@ def get_review_comments(diff):
     Code Diff:
     {diff}
     """
-    ait_api_key = os.getenv("AIT_API_KEY")
 
-    # Initialize the client at the top of your file (after imports)
     client = OpenAI(
-        api_key=ait_api_key,
+        api_key=AIT_API_KEY,
         base_url="https://api.together.xyz/v1"
     )
 
-    # Then modify your API call to:
     response = client.chat.completions.create(
         model="meta-llama/Llama-3.3-70B-Instruct-Turbo",
         messages=[{"role": "user", "content": prompt}]
@@ -46,12 +55,21 @@ def get_review_comments(diff):
     return response.choices[0].message.content
 
 def post_comment(body):
-    url = f"{GITHUB_API}/repos/{REPO}/issues/{PR_NUMBER}/comments"
-    headers = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
-    data = {"body": body}
-    requests.post(url, headers=headers, json=data)
+    try:
+        issue = repo.get_issue(number=PR_NUMBER)
+        issue.create_comment(body)
+        print("✅ Review comment posted.")
+    except Exception as e:
+        print("❌ Error posting comment:", e)
 
 if __name__ == "__main__":
+    print("🚀 Fetching diff...")
     diff = get_diff()
-    feedback = get_review_comments(diff)
-    post_comment(feedback)
+
+    if not diff.strip():
+        print("⚠️ No diff found. Skipping AI review.")
+    else:
+        print("🤖 Generating review feedback...")
+        feedback = get_review_comments(diff)
+        print("💬 Posting comment to PR...")
+        post_comment(feedback)
