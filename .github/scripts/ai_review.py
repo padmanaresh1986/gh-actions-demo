@@ -14,14 +14,20 @@ repo = gh.get_repo(REPO_NAME)
 
 def get_diff():
     try:
+        print(f"PR Number {PR_NUMBER}")
         pr = repo.get_pull(PR_NUMBER)
+        print(f"PR  {pr}")
         files = pr.get_files()
         print(f" Diff files {files}")
         diff = ""
         for file in files:
             filename = file.filename
+            print(f"Loop File Name {filename}")
             patch = file.patch if hasattr(file, "patch") else ""
+            print(f"Loop Patch {patch}")
             diff += f"\nFile: {filename}\n{patch}\n"
+        
+        print(f"Final diffs {diff}")
 
         return diff
     except Exception as e:
@@ -41,12 +47,17 @@ def get_review_comments(diff):
     Code Diff:
     {diff}
     """
+    print(f"Prompt {prompt}")
+    print(f"AIT API key {AIT_API_KEY}")
 
     client = OpenAI(
         api_key=AIT_API_KEY,
         base_url="https://api.together.xyz/v1"
     )
 
+    print(f"Chat client {client}" )
+
+    print("Calling chat completions")
     response = client.chat.completions.create(
         model="meta-llama/Llama-3.3-70B-Instruct-Turbo",
         messages=[{"role": "user", "content": prompt}]
