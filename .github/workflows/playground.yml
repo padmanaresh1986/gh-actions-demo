@@ -1,0 +1,10 @@
+name: Playground
+
+on: 
+    workflow_dispatch: 
+    
+jobs:
+    test-actions:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo Hello Team
