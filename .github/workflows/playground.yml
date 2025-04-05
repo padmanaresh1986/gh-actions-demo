@@ -5,7 +5,7 @@ on:
 
 jobs:
   inspect-java:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Run a multi-line script
         run: |
@@ -32,13 +32,13 @@ jobs:
           echo $JAVA_HOME
 
   inspect-python:
-    runs-on: macos-latest
+    runs-on: self-hosted
     steps:
         - name: python version
           run: python --version 
 
   inspect-checkout-action:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
         - name : before checkout foler contents
           run: ls -l
