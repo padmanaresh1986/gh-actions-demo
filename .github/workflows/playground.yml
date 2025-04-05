@@ -36,3 +36,15 @@ jobs:
     steps:
         - name: python version
           run: python --version 
+
+  inspect-checkout-action:
+    runs-on: ubuntu-18.04
+    steps:
+        - name : before checkout foler contents
+          run: ls -l
+        - name: checkout code
+          uses: actions/checkout@v4
+        - name : after checkout folder contents
+          run: ls -l
+        
+  
