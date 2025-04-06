@@ -22,3 +22,13 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKSPACE: ./python
+
+      - name: Upload Super-Linter logs as artifact
+        uses: actions/upload-artifact@v3
+        if: always()  # Upload artifacts even if the linter fails
+        with:
+          name: super-linter-results
+          path: |
+            ./super-linter.log
+            ./github/logs/super-linter.log
+          retention-days: 5
