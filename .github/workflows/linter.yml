@@ -21,37 +21,10 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKSPACE: ./python
+          VALIDATE_ALL_CODEBASE: false  # Only check files in the workspace
           # Only enable Python validation
           VALIDATE_PYTHON: true
           
-          # Choose ONE main Python linter (or enable multiple carefully)
-          VALIDATE_PYTHON_PYLINT: true
-          # VALIDATE_PYTHON_FLAKE8: false
-          # VALIDATE_PYTHON_BLACK: false
-          # VALIDATE_PYTHON_ISORT: false
-          # VALIDATE_PYTHON_MYPY: false
-          
-          # Disable ALL other languages
-          VALIDATE_CSS: false
-          VALIDATE_ENV: false
-          VALIDATE_GO: false
-          VALIDATE_JSON: false
-          VALIDATE_JS: false
-          VALIDATE_TS: false
-          VALIDATE_MARKDOWN: false
-          VALIDATE_YAML: false
-          VALIDATE_DOCKER: false
-          VALIDATE_BASH: false
-          VALIDATE_TERRAFORM: false
-          VALIDATE_POWERSHELL: false
-          VALIDATE_RUBY: false
-          VALIDATE_COFFEE: false
-          VALIDATE_KOTLIN: false
-          VALIDATE_EDITORCONFIG: false
-          VALIDATE_CLOJURE: false
-          VALIDATE_PROTOBUF: false
-          VALIDATE_HTML: false
-
       - name: Print the contents
         if: always() 
         run: ls -lrt
