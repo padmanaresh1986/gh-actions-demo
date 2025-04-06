@@ -1,6 +1,12 @@
 name: Linter
 
-on: push
+on:
+  push:
+    paths:
+      - ".github/workflows/linter.yml"
+      - "python/**"
+  workflow_dispatch:
+
 
 jobs:
   lintint-job:
@@ -15,3 +21,4 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: python
