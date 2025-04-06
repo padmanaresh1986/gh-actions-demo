@@ -1,4 +1,4 @@
-name: Linter
+name: Python Linter
 
 on:
   push:
@@ -7,23 +7,38 @@ on:
       - "python/**"
   workflow_dispatch:
 
-
 jobs:
-  lintint-job:
-    name: Lint code base
+  lint-python:
+    name: Lint Python code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Super-Linter
+      - name: Run Super-Linter (Python only)
         uses: github/super-linter@v7
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKSPACE: ./python
+          VALIDATE_ALL_CODEBASE: false  # Only check files in the workspace
+          VALIDATE_PYTHON: true  # Enable Python linting
+          VALIDATE_PYTHON_BLACK: true  # Enable Black formatter
+          VALIDATE_PYTHON_PYLINT: true  # Enable Pylint
+          VALIDATE_PYTHON_FLAKE8: true  # Enable Flake8
+          VALIDATE_PYTHON_ISORT: true  # Enable import sorting
+          VALIDATE_PYTHON_MYPY: true  # Enable type checking
+          # Disable all other languages
+          VALIDATE_CSS: false
+          VALIDATE_JSON: false
+          VALIDATE_MARKDOWN: false
+          VALIDATE_YAML: false
+          VALIDATE_DOCKER: false
+          VALIDATE_BASH: false
+          VALIDATE_TERRAFORM: false
+          # Add more VALIDATE_*: false for other languages as needed
 
-      - name: print the contents
+      - name: Print the contents
         if: always() 
         run: ls -lrt
 
@@ -32,4 +47,7 @@ jobs:
         if: always() 
         with:
           name: super-linter-results
-          path: super-linter-output/*
+          path: |
+            super-linter.log
+            github/logs/super-linter.log
+            super-linter-output/*
