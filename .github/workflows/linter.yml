@@ -21,8 +21,6 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WORKSPACE: ./python
-          VALIDATE_ALL_CODEBASE: false  # Only check files in the workspace
-          
           # Only enable Python validation
           VALIDATE_PYTHON: true
           
